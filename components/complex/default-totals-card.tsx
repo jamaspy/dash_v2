@@ -11,7 +11,7 @@ export interface DefaultCardProps {
 
 export const DefaultCard = ({ title, value, icon, percentage, up }: DefaultCardProps) => {
     return (
-        <Card className='shadow-none border-0 bg-zinc-100 dark:bg-zinc-800 w-auto'>
+        <Card className='shadow-none border-2 bg-zinc-100 dark:bg-zinc-900 border-zinc-300 dark:border-zinc-700 w-auto'>
             <CardHeader className='p-4'>
                 <CardTitle>{title}</CardTitle>
                 <CardDescription className="text-xs">Last 6 Months</CardDescription>

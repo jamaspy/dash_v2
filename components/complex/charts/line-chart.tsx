@@ -32,8 +32,14 @@ type ResponseData = {
 
 export function LineChartComponent({
     chartData,
+    xAxisLabel,
+    yAxisLabel,
+    targetLabel,
 }: {
     chartData: ResponseData[];
+    xAxisLabel: string;
+    yAxisLabel: string;
+    targetLabel: string;
 }) {
     return (
         <ChartContainer
@@ -51,7 +57,7 @@ export function LineChartComponent({
             >
                 <CartesianGrid vertical={false} />
                 <XAxis
-                    dataKey="month"
+                    dataKey={xAxisLabel}
                     tickLine={false}
                     axisLine={true}
                     tickMargin={8}
@@ -59,14 +65,14 @@ export function LineChartComponent({
                 />
                 <YAxis
                     tickLine={false}
-                    dataKey={"hires"}
+                    dataKey={yAxisLabel}
                     axisLine={false}
                     tickMargin={8}
                 // tickFormatter={(value) => value.slice(0, 3)}
                 />
-                <ChartTooltip cursor={false} content={<ChartTooltipContent />} />
+                <ChartTooltip cursor={true} content={<ChartTooltipContent />} />
                 <Line
-                    dataKey="hires"
+                    dataKey={yAxisLabel}
                     type="monotone"
                     stroke="var(--chart-4)"
                     strokeWidth={2}
@@ -74,7 +80,7 @@ export function LineChartComponent({
                 />
 
                 <Line
-                    dataKey="target"
+                    dataKey={targetLabel}
                     type="monotone"
                     stroke="var(--chart-2)"
                     strokeWidth={2}
