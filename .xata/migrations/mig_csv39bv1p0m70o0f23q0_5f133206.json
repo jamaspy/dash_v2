@@ -1,0 +1,16 @@
+{
+  "id": "mig_csv39bv1p0m70o0f23q0",
+  "parentID": "mig_csv38371p0m70o0f23p0",
+  "checksum": "1:5f133206f462a864abdd9a9e2a7b7625b0603424d4a9c4679c073a104831f500",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "preScreening",
+          "type": "int"
+        },
+        "table": "user_funnel_health"
+      }
+    }
+  ]
+}

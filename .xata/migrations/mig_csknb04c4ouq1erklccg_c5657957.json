@@ -1,0 +1,12 @@
+{
+  "id": "mig_csknb04c4ouq1erklccg",
+  "parentID": "mig_cqpfnl993o4mlb4d3vng",
+  "checksum": "1:c56579574dca58749a77b7181d4270879facb914e5091b3ce9787c2e33c8c66d",
+  "operations": [
+    {
+      "addTable": {
+        "table": "funnel-health"
+      }
+    }
+  ]
+}

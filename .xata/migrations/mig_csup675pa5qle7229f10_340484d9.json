@@ -1,0 +1,13 @@
+{
+  "id": "mig_csup675pa5qle7229f10",
+  "parentID": "mig_cskquebghk5muqatj6qg",
+  "checksum": "1:340484d959c5af33aec35dac80f6e77aa433157f710643f96a98a77517891b94",
+  "operations": [
+    {
+      "renameTable": {
+        "newName": "user_funnel_health",
+        "oldName": "funnel-health"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "mig_cskquebghk5muqatj6qg",
+  "parentID": "mig_cskqadrghk5muqatj6ng",
+  "checksum": "1:f38a01f367aab0b8617653bb79c108a438a0a40f1742aaeb7c93ef5f1e94a071",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "userId",
+          "type": "link",
+          "link": {
+            "table": "nextauth_users"
+          }
+        },
+        "table": "funnel-health"
+      }
+    }
+  ]
+}

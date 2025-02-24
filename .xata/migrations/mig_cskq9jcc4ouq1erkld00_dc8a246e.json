@@ -1,0 +1,16 @@
+{
+  "id": "mig_cskq9jcc4ouq1erkld00",
+  "parentID": "mig_cskq9f4c4ouq1erklcv0",
+  "checksum": "1:dc8a246e5a427c79c666c2cf897f1843b67e758553cb2b30fe1438b2efbb130d",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "offerStage",
+          "type": "int"
+        },
+        "table": "funnel-health"
+      }
+    }
+  ]
+}

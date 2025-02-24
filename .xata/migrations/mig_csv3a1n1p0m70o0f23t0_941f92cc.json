@@ -1,0 +1,16 @@
+{
+  "id": "mig_csv3a1n1p0m70o0f23t0",
+  "parentID": "mig_csv39sf1p0m70o0f23s0",
+  "checksum": "1:941f92cc2b214ca05a9fa74f055c205d5debc74e2e3cbcf72224dd3c646cd289",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "connectedStage",
+          "type": "int"
+        },
+        "table": "user_funnel_health"
+      }
+    }
+  ]
+}

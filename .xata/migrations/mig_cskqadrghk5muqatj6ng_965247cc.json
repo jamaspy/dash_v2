@@ -1,0 +1,16 @@
+{
+  "id": "mig_cskqadrghk5muqatj6ng",
+  "parentID": "mig_cskqaarghk5muqatj6mg",
+  "checksum": "1:965247cc738d98fb086eda56a1d0e38e292062bb22c3dac63663db9bea87ad34",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "offerToHire",
+          "type": "float"
+        },
+        "table": "funnel-health"
+      }
+    }
+  ]
+}

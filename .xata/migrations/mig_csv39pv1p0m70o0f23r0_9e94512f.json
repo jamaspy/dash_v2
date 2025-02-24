@@ -1,0 +1,14 @@
+{
+  "id": "mig_csv39pv1p0m70o0f23r0",
+  "parentID": "mig_csv39bv1p0m70o0f23q0",
+  "checksum": "1:9e94512f73d12c3360714456f9a2452f63f82f1d4f795ca7403dffe8c7a95fd1",
+  "operations": [
+    {
+      "renameColumn": {
+        "newName": "talentPoolStage",
+        "oldName": "talentPool",
+        "table": "user_funnel_health"
+      }
+    }
+  ]
+}

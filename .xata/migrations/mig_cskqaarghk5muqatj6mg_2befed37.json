@@ -1,0 +1,16 @@
+{
+  "id": "mig_cskqaarghk5muqatj6mg",
+  "parentID": "mig_cskqa7jghk5muqatj6lg",
+  "checksum": "1:2befed373a09bfb572201444def98cca4b85e71626f7666fcb1b8d3211987246",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "interviewToOffer",
+          "type": "float"
+        },
+        "table": "funnel-health"
+      }
+    }
+  ]
+}

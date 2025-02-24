@@ -1,0 +1,16 @@
+{
+  "id": "mig_csknb4gitsskql8ivhdg",
+  "parentID": "mig_csknb04c4ouq1erklccg",
+  "checksum": "1:98f63769af047f733a504201baad12e1b7b0c03f02a582f84a5b726ecc26b4c9",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "companyName",
+          "type": "text"
+        },
+        "table": "funnel-health"
+      }
+    }
+  ]
+}

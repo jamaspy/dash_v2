@@ -17,7 +17,7 @@ export const DefaultCard = ({ title, value, icon, percentage, up }: DefaultCardP
                 <CardDescription className="text-xs">Last 6 Months</CardDescription>
             </CardHeader>
             <CardContent className='p-0 px-4 flex flex-col items-start justify-center'>
-                <p className='text-2xl font-black text-violet-700 dark:text-violet-400'>{value}</p>
+                <p className='text-2xl font-black text-indigo-700 dark:text-indigo-400'>{value}</p>
             </CardContent>
             <CardFooter className='p-4'>
                 <div className={cn('flex items-center gap-1 text-pink-600 bg-pink-600/10 px-2 py-1 rounded-md', {

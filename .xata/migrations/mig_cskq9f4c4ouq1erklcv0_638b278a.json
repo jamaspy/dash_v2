@@ -1,0 +1,16 @@
+{
+  "id": "mig_cskq9f4c4ouq1erklcv0",
+  "parentID": "mig_cskq9bjghk5muqatj6kg",
+  "checksum": "1:638b278a7c57021e689ef78ec9bc5172071ee1baaf3b2dd0061e1eb158ac5fd1",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "finalInterviewStage",
+          "type": "int"
+        },
+        "table": "funnel-health"
+      }
+    }
+  ]
+}

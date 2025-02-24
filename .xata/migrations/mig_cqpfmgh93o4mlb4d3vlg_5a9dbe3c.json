@@ -1,0 +1,16 @@
+{
+  "id": "mig_cqpfmgh93o4mlb4d3vlg",
+  "parentID": "mig_cqpfm4993o4mlb4d3vkg",
+  "checksum": "1:5a9dbe3c00e0e3708d6cf48e9285b892f6c683973a5094a099ec4e1ca1775a3a",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "name",
+          "type": "string"
+        },
+        "table": "clients"
+      }
+    }
+  ]
+}

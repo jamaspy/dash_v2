@@ -1,20 +1,14 @@
 import { getGendersByStage } from "@/actions/genders-by-stage";
 import {
-  PieChartComponent,
   BarChartComponent,
-  LineChartComponent,
+  HiresByMonthChart,
+  GenderSplitPieCharts,
 } from "../charts";
 
 import { getGendersBySplit } from "@/actions/genders-by-split";
 import { getHiresByMonth } from "@/actions";
-import { ChartContainer } from "@/components/ui/chart";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+
+
 export const GenderDataSection = async () => {
   const [gendersByStage, genderSplits, genderPlacements, hiresByMonth] =
     await Promise.all([
@@ -25,31 +19,13 @@ export const GenderDataSection = async () => {
     ]);
 
   return (
-    <div className="flex flex-row gap-4">
+    <div className="flex flex-col lg:flex-row gap-4">
       <BarChartComponent chartData={gendersByStage} />
-      <PieChartComponent
+      <GenderSplitPieCharts
         splitData={genderSplits}
         placementData={genderPlacements}
       />
-      <Card className="bg-zinc-100 dark:bg-zinc-900 border-2 border-zinc-300 dark:border-zinc-700 shadow-none">
-        <CardHeader>
-          <CardTitle>Placements Against Target</CardTitle>
-          <CardDescription>
-            Overview of the numbers for each gender at each stage of the
-            recruitment life cycle.
-          </CardDescription>
-        </CardHeader>
-        <CardContent>
-          <ChartContainer config={{}}>
-            <LineChartComponent
-              chartData={hiresByMonth}
-              xAxisLabel="month"
-              yAxisLabel="hires"
-              targetLabel="target"
-            />
-          </ChartContainer>
-        </CardContent>
-      </Card>
+      <HiresByMonthChart data={hiresByMonth} />
     </div>
   );
 };

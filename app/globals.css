@@ -24,18 +24,12 @@
   --border: hsl(20 5.9% 90%);
   --input: hsl(20 5.9% 90%);
   --ring: hsl(20 14.3% 4.1%);
-  --chart-1: var(--color-violet-400);
-  --chart-2: var(--color-violet-500);
-  --chart-3: var(--color-violet-600);
-  --chart-4: var(--color-violet-700);
-  --chart-5: var(--color-violet-800);
+  --chart-1: oklch(0.586 0.253 17.585);
+  --chart-2: oklch(0.546 0.245 262.881);
+  --chart-3: oklch(0.558 0.288 302.321);
+  --chart-4: oklch(0.609 0.126 221.723);
+  --chart-5: oklch(0.646 0.222 41.116);
   --radius: 0.6rem;
-  --color-violet-400: oklch(0.702 0.183 293.541);
-  --color-violet-500: oklch(0.606 0.25 292.717);
-  --color-violet-600: oklch(0.541 0.281 293.009);
-  --color-violet-700: oklch(0.491 0.27 292.581);
-  --color-violet-800: oklch(0.449 0.259 292.199);
-  
 }  
 
 .dark {
@@ -58,16 +52,11 @@
   --border: hsl(12 6.5% 15.1%);
   --input: hsl(12 6.5% 15.1%);
   --ring: hsl(24 5.7% 82.9%);
-  --color-fuchsia-400: oklch(0.74 0.238 322.16);
-  --color-fuchsia-500: oklch(0.667 0.295 322.15);
-  --color-fuchsia-600: oklch(0.591 0.293 322.896);
-  --color-fuchsia-700: oklch(0.518 0.253 323.949);
-  --color-fuchsia-800: oklch(0.452 0.211 324.591);
-  --chart-1: var(--color-fuchsia-400);
-  --chart-2: var(--color-fuchsia-500);
-  --chart-3: var(--color-fuchsia-600);
-  --chart-4: var(--color-fuchsia-700);
-  --chart-5: var(--color-fuchsia-800);
+  --chart-1: oklch(0.592 0.249 0.584);
+  --chart-2: oklch(0.746 0.16 232.661);
+  --chart-3: oklch(0.606 0.25 292.717);
+  --chart-4: oklch(0.855 0.138 181.071);
+  --chart-5: oklch(0.828 0.189 84.429);
 }
 
 @theme inline {

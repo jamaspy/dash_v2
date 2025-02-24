@@ -1,0 +1,31 @@
+export interface JobMetrics {
+    CompanyId: number;
+    JobTitle: string;
+    JoborderId: number;
+    ConsultantName: string;
+    JoborderStatus: string;
+    TalentPool: number;
+    PreScreening: number;
+    Screening: number;
+    Contacted: number;
+    Connected: number;
+    Approved_Submissions: number;
+    Email: number;
+    LinkedIn: number;
+    SMS: number;
+    PhoneCall: number;
+    ClientInterview1: number;
+    ClientInterview2: number;
+    ClientInterview3: number;
+    ClientInterview4: number;
+    ClientInterview5: number;
+    ClientInterviewFinal: number;
+    MarketPlace: number;
+    Offer: number;
+    Acceptance: number;
+    Unsuccessful_Screening: number;
+    Unsuccessful_Contact: number;
+    WithdrewApplication: number;
+    RejectedOffer: number;
+    Shortlisted: number;
+}

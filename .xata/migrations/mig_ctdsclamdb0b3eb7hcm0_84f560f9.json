@@ -1,0 +1,20 @@
+{
+  "id": "mig_ctdsclamdb0b3eb7hcm0",
+  "parentID": "mig_ctdscfcpgdqvokgt6ubg",
+  "checksum": "1:84f560f9ee894d8c00e2816dc0113807b4b85f6f794caa94ada975143762c016",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "user",
+          "type": "link",
+          "link": {
+            "table": "nextauth_users"
+          },
+          "unique": true
+        },
+        "table": "profile"
+      }
+    }
+  ]
+}

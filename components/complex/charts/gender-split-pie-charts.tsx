@@ -30,17 +30,17 @@ const chartConfig = {
   },
   "Not Identified": {
     label: "Not Identified",
-    color: "var(--chart-3)",
+    color: "var(--chart-4)",
   },
 } satisfies ChartConfig;
 
-export function PieChartComponent({
+export function GenderSplitPieCharts({
   splitData,
   placementData,
-}: {
+}: Readonly<{
   splitData: GenderSplit[];
   placementData: GenderSplit[];
-}) {
+}>) {
   const splitChartData =
     splitData &&
     splitData?.map((item: GenderSplit, index: number) => ({

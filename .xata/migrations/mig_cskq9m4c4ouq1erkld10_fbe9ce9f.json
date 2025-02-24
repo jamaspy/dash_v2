@@ -1,0 +1,16 @@
+{
+  "id": "mig_cskq9m4c4ouq1erkld10",
+  "parentID": "mig_cskq9jcc4ouq1erkld00",
+  "checksum": "1:fbe9ce9f2708fcb27d7e38c28e58e1673516ea4af094d268ff87cfc153c01373",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "predictedHires",
+          "type": "int"
+        },
+        "table": "funnel-health"
+      }
+    }
+  ]
+}

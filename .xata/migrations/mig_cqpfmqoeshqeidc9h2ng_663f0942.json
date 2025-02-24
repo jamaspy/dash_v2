@@ -1,0 +1,19 @@
+{
+  "id": "mig_cqpfmqoeshqeidc9h2ng",
+  "parentID": "mig_cqpfmkp93o4mlb4d3vmg",
+  "checksum": "1:663f0942691755db0397149474e0486358e1c6b033b1d8aef0fbdfd46c725f10",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "userId",
+          "type": "link",
+          "link": {
+            "table": "nextauth_users"
+          }
+        },
+        "table": "clients"
+      }
+    }
+  ]
+}

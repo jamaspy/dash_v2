@@ -1,0 +1,17 @@
+{
+  "id": "mig_cpqc06qikt4mfoqs1p70",
+  "parentID": "mig_cp38u3uhncv0nk5d9b8g",
+  "checksum": "1:86f76bcaf6e9e391ac607dbedba4fc6dc0d6a5fede7a1c6ad8ec7a98dd5ed354",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "companyId",
+          "type": "int",
+          "defaultValue": "0"
+        },
+        "table": "nextauth_users"
+      }
+    }
+  ]
+}

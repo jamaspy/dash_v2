@@ -1,0 +1,16 @@
+{
+  "id": "mig_csv3c471p0m70o0f23u0",
+  "parentID": "mig_csv3a1n1p0m70o0f23t0",
+  "checksum": "1:24802a664ae953853819ba041b9807ec0c3c283ee73407378524c0c4bebfe16f",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "hiredStage",
+          "type": "int"
+        },
+        "table": "user_funnel_health"
+      }
+    }
+  ]
+}

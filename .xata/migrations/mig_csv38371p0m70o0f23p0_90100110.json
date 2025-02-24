@@ -1,0 +1,16 @@
+{
+  "id": "mig_csv38371p0m70o0f23p0",
+  "parentID": "mig_csup675pa5qle7229f10",
+  "checksum": "1:90100110667e02ba56ddd00a24145eedf90d6f5aa113744883d3d52ff7956d50",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "talentPool",
+          "type": "int"
+        },
+        "table": "user_funnel_health"
+      }
+    }
+  ]
+}

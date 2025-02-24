@@ -1,0 +1,14 @@
+{
+  "id": "mig_csv39sf1p0m70o0f23s0",
+  "parentID": "mig_csv39pv1p0m70o0f23r0",
+  "checksum": "1:42dee664db7f998730ca265f8a9208a99d08fa6516324432d1a8aba7a59fc824",
+  "operations": [
+    {
+      "renameColumn": {
+        "newName": "preScreeningStage",
+        "oldName": "preScreening",
+        "table": "user_funnel_health"
+      }
+    }
+  ]
+}

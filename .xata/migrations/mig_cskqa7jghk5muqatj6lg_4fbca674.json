@@ -1,0 +1,16 @@
+{
+  "id": "mig_cskqa7jghk5muqatj6lg",
+  "parentID": "mig_cskqa3kc4ouq1erkld20",
+  "checksum": "1:4fbca674880a923e24ab9ee221c4b0506bc1bf876b3deb79005a3f2960c9edb9",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "shortlistedToSubmission",
+          "type": "float"
+        },
+        "table": "funnel-health"
+      }
+    }
+  ]
+}

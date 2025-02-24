@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://James-Aspinall-s-workspace-q95ntg.ap-southeast-2.xata.sh/db/preacta",
+  "codegen": {
+    "output": "./xata.ts"
+  }
+}

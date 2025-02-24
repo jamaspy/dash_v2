@@ -36,9 +36,9 @@ export type ResponseData = {
 };
 export function BarChartComponent({
   chartData,
-}: {
+}: Readonly<{
   chartData: ResponseData[];
-}) {
+}>) {
   const data = useMemo(() => {
     if (!chartData) return [];
 

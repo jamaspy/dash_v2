@@ -1,0 +1,16 @@
+{
+  "id": "mig_csknbjkc4ouq1erklceg",
+  "parentID": "mig_csknbacc4ouq1erklcdg",
+  "checksum": "1:f845b66b95ab214c0c9f85c9e282a6c91624da1ad537889cf0f0299f3afa9916",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "screeningStage",
+          "type": "int"
+        },
+        "table": "funnel-health"
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "mig_ctdsd2tkite69dmfbjcg",
+  "parentID": "mig_ctdsclamdb0b3eb7hcm0",
+  "checksum": "1:cc76802181d986bfcd15755a89d904eaa2362e1b5b31b5ce10e71d9deb695074",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "hiresTarget",
+          "type": "int",
+          "defaultValue": "3"
+        },
+        "table": "profile"
+      }
+    }
+  ]
+}

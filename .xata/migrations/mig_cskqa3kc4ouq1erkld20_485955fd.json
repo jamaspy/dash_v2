@@ -1,0 +1,16 @@
+{
+  "id": "mig_cskqa3kc4ouq1erkld20",
+  "parentID": "mig_cskq9m4c4ouq1erkld10",
+  "checksum": "1:485955fd4e639b99fc63a9152908f876f50e1623fc8536b9689e75c9f9de4b44",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "talentPoolToPreScreening",
+          "type": "float"
+        },
+        "table": "funnel-health"
+      }
+    }
+  ]
+}

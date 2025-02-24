@@ -35,12 +35,12 @@ export function LineChartComponent({
     xAxisLabel,
     yAxisLabel,
     targetLabel,
-}: {
+}: Readonly<{
     chartData: ResponseData[];
     xAxisLabel: string;
     yAxisLabel: string;
     targetLabel: string;
-}) {
+}>) {
     return (
         <ChartContainer
             config={chartConfig}
@@ -82,7 +82,7 @@ export function LineChartComponent({
                 <Line
                     dataKey={targetLabel}
                     type="monotone"
-                    stroke="var(--chart-2)"
+                    stroke="var(--chart-5)"
                     strokeWidth={2}
                     label="false"
                     dot={false}

@@ -1,0 +1,16 @@
+{
+  "id": "mig_cu3omt38bp3icf839f80",
+  "parentID": "mig_ctdsd2tkite69dmfbjcg",
+  "checksum": "1:34b87c79c7ca663d5b277ff1719200f985e384b3aea1b8a48b3ac6ef941f4cfd",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "clientCategories",
+          "type": "multiple"
+        },
+        "table": "nextauth_users"
+      }
+    }
+  ]
+}
